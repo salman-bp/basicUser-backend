@@ -1,0 +1,25 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "for practice and testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "demo"
+  ],
+  "author": "salman-bp",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}
